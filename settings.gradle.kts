@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PR14_Mirzakamilov_PR23.103"
+rootProject.name = "Pr14_Osipov"
 include(":app")
  
