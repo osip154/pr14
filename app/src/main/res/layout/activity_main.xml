@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:padding="12dp"> <TextView
+    android:id="@+id/tvResult"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:gravity="bottom|end"
+    android:text="0"
+    android:textColor="@color/white"
+    android:textSize="90sp"
+    android:maxLines="1"
+    android:ellipsize="end"
+    android:paddingBottom="20dp"
+    android:paddingEnd="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btnAC" style="@style/CalcBtn" android:text="AC" android:textColor="@color/black" android:backgroundTint="@color/btn_light_grey"/>
+        <Button android:id="@+id/btnPercent" style="@style/CalcBtn" android:text="%" android:textColor="@color/black" android:backgroundTint="@color/btn_light_grey"/>
+        <Button android:id="@+id/btnBack" style="@style/CalcBtn" android:text="⌫" android:textColor="@color/black" android:backgroundTint="@color/btn_light_grey"/>
+        <Button android:id="@+id/btnDiv" style="@style/CalcBtn" android:text="/" android:background="@drawable/round_button" android:textSize="36sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button android:id="@+id/btn7" style="@style/CalcBtn" android:text="7" />
+        <Button android:id="@+id/btn8" style="@style/CalcBtn" android:text="8" />
+        <Button android:id="@+id/btn9" style="@style/CalcBtn" android:text="9" />
+        <Button android:id="@+id/btnMult" style="@style/CalcBtn" android:text="x" android:background="@drawable/round_button" android:textSize="36sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button android:id="@+id/btn4" style="@style/CalcBtn" android:text="4" />
+        <Button android:id="@+id/btn5" style="@style/CalcBtn" android:text="5" />
+        <Button android:id="@+id/btn6" style="@style/CalcBtn" android:text="6" />
+        <Button android:id="@+id/btnSub" style="@style/CalcBtn" android:text="-" android:background="@drawable/round_button" android:textSize="40sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button android:id="@+id/btn1" style="@style/CalcBtn" android:text="1" />
+        <Button android:id="@+id/btn2" style="@style/CalcBtn" android:text="2" />
+        <Button android:id="@+id/btn3" style="@style/CalcBtn" android:text="3" />
+        <Button android:id="@+id/btnAdd" style="@style/CalcBtn" android:text="+" android:background="@drawable/round_button" android:textSize="40sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <Button android:id="@+id/btn00" style="@style/CalcBtn" android:text="00" />
+        <Button android:id="@+id/btn0" style="@style/CalcBtn" android:text="0" />
+        <Button android:id="@+id/btnDot" style="@style/CalcBtn" android:text="," />
+
+        <Button
+            android:id="@+id/btnEq"
+            style="@style/CalcBtn"
+            android:background="@drawable/round_button_lilac"
+            android:text="="
+            android:textSize="40sp" />
+    </LinearLayout>
+
+</LinearLayout>
