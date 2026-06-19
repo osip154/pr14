@@ -1,4 +1,4 @@
-package com.example.pr14_mirzakamilov_pr23103;
+package com.example.Pr14_Osipov;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
